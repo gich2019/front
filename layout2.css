@@ -1,0 +1,142 @@
+/*body{
+	background-color:#ee82ee;
+	background-image: url("apple.jpg");
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+	border-style:solid; border-color:red;border-width:5px;
+}*/
+/*p{
+	color:red;
+	text-align:justify;
+
+}*/
+.clr{
+	clear: both;
+}
+/* below are styles for links*/
+
+a{
+	text-decoration: none;
+
+
+}
+/*hovering on a link event*/
+a:hover{
+	color: red;
+}
+/*short effect upon clicking a link*/
+a:active{
+	color: green;
+}
+a:visited{
+	/*color: yellow;*/
+}
+.box1{
+	width: 80%;
+	margin-left: 10px
+	border-style:dotted;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	}
+form{
+	width: 35%;
+		border-style: solid;
+		border-color: blue; 
+	}
+.container{
+	width:80%;
+	margin-top: 20px;
+	margin-left:20px; 
+	border-style: solid;border-color: blue; 
+	/*margin-top: 200px;
+	margin-bottom:200px; 
+	margin-right: 300px;
+	margin-left: 100px;*/
+}
+.categories{
+	border: 2px blue solid;
+	padding:10px;
+	border-radius:15px;
+}
+.categories h3{
+	text-align: center;color: red;
+}
+.categories ul{
+	padding: 6px;
+	margin: 10px;
+	list-style: square;
+}
+.categories li{
+	padding-bottom: 10px;
+	border-bottom: dotted 2px blue;
+	list-style-image:url("check.png"); 
+}
+.my-form{
+	padding: 20px;
+}
+.form-group{
+	padding-bottom: 15px;
+}
+.my-form label{
+	display:block;
+}
+/* increase padding and width of text boxex only*/
+.my-form input[type="text"]{
+padding:8px;
+width: 100%;
+}
+.my-form textarea{
+	padding: 8px;
+	width: 100%;
+}
+.my-form input[type="submit"]{
+	background-color: #333;
+	color: #fff;
+	padding:10px 15px;
+	border: none;
+}
+button{
+	background-color: #AAB7B8;
+	color: #fff;
+	width:25px;
+ 	background-image: url ('/img/check.png') no-repeat;
+    cursor:pointer;
+	border: none;
+	text-align: left;
+
+}
+.btn-group button{
+	background-image: url ('/img/check.png');
+	color: #FF5733;
+	width:100px;
+	height: 100px;
+	padding: 10px 10px;
+	border-radius: 12px;
+	border: 1px solid green;
+	}
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+.block{
+	float: left;
+	width: 33.3%;
+	border: 1px solid #333;
+	padding: 2px;
+	box-sizing: border-box;
+}
+#main-block{
+	float: left;
+	width: 70%;
+	/*box-sizing: border-box;*/
+}
+#sidebar{
+	float: right;
+	width: 30%;
+	background-color: grey;
+	color: blue;
+	padding: 10px;
+	box-sizing: border-box;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>	
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<link rel="stylesheet" type="text/css" href="layout2.css">
+<script src="myjavascript.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+<body>
+  <p id="res"> </p>
+
+ <h1>Please select seat Number</h1>
+
+<form>
+<input type ="text" id="num1" name="textone"><br>
+<input type ="text" id="num2" name="texttwo">
+<input type ="text" id="txtresult" name="result"><br>
+<input type="button" id="add"onclick="AddFunction('num1','num2')"value="my result">
+
+<button id="myBtn">Try it</button>
+
+<input type ="text" id="demo">
+</form>
+<script>
+  
+ /* var a= parseInt(document.getElementById("num1").value);
+  var b=parseInt(document.getElementById("num2").value);
+  var c=document.getElementById("add")
+  document.getElementById("txtresult").value = c;*/
+document.getElementById("myBtn").addEventListener("click", displayDate);
+ </script>
+</body>
+</html>

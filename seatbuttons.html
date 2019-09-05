@@ -1,0 +1,46 @@
+<!DOCTYPE html>	
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<link rel="stylesheet" type="text/css" href="layout2.css">
+<script src="myjavascript.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+<body>
+  <p id="res"> </p>
+
+ <h1>Please select seat Number</h1>
+<input type ="text" id ="ans">
+
+<form>
+<div class="btn-group">
+  <button name="pass_seat" onclick=this.backcolor="red">1</button>&nbsp;
+  <button name="pass_seat" onclick="markseat('pass_seat')"></button>&nbsp;
+  <button name="pass_seat" onclick="return markseat()">Drv</button>&emsp;<br>
+  <button name="pass_seat" onclick="return markseat()">4</button>&nbsp;
+  <button name="pass_seat" onclick="return markseat()">5</button>&emsp;
+  <button name="pass_seat" onclick="markseat()">6</button>&emsp;<br>
+  <button name="pass_seat" onclick="markseat()">7</button>&nbsp;
+  <button name="pass_seat" onclick="markseat()">8</button>&emsp;
+  <button name="pass_seat" onclick="markseat()">9</button>&emsp;<br>
+  <button name="pass_seat" onclick="markseat()">10</button>&nbsp;
+  <button name="pass_seat" onclick="markseat()">11</button>&emsp;
+  <button name="pass_seat" onclick="markseat()">12</button>&emsp;<br>
+  <button name="pass_seat" onclick="markseat()">13</button>&nbsp;
+  <button name="pass_seat" onclick="markseat()">14</button>&emsp;
+  <button name="pass_seat" onclick="markseat()">14</button>&emsp;
+ 
+ <input type = "button" onclick = "myname()" value = "Say my name">
+
+
+</div>
+
+
+</form>
+<script>
+ /* var x = AddFunction(12, 3);*/
+  document.getElementById("ans").innerHTML = AddFunction(10, 2); 
+
+ </script>
+</body>
+</html>

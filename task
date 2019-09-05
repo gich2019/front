@@ -1,0 +1,9 @@
+<!DOCTYPE HMTL>
+
+html>
+<head><title>html</title>
+</head>
+<body sytle="bacground-color:orange;">
+<p style="color:blue;">good morning</p>
+</body>
+</html>
